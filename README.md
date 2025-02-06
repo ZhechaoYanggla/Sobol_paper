@@ -1,4 +1,4 @@
-# Sobol_paper
+# Sobol analysis on Shannon model (2004)
   Mathematical models of cardiac cell electrical activity include
   numerous parameters, making calibration to experimental data and
   individual-specific modeling challenging. This study applies Sobol
