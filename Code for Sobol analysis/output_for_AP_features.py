@@ -137,7 +137,7 @@ for params in param_values[index_run-1:262144,:]:
     
     sim = myokit.Simulation(model, protocol)
     sim.reset()
-    sim.pre(99 * 500)
+    sim.pre(999 * 500)
     d = sim.run(500.0,log_times=times)
     var = 'cell.V'
     Yapd30[index_run-1] = compute_apd30(d[var], d.time())
