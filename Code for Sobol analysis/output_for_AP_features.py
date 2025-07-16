@@ -31,7 +31,7 @@ Yplateau = np.zeros(L)
 Yvrest = np.zeros(L)
 Yapd90 = np.zeros(L)
 
-model, protocol, script = myokit.load('shannon_wang_puglisi_weber_bers_2004_a_p')
+model, protocol, script = myokit.load('shannon_wang_puglisi_weber_bers_2004_a_p.mmt')
 
 def compute_apd90(voltage, time):
     # Find the peak voltage
